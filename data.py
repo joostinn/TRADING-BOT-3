@@ -45,8 +45,6 @@ def download_adj_close(
         px.columns = tickers[:1]
 
     px = px.sort_index()
-    px = px.replace([np.inf, -np.inf], np.nan).dropna(how="all")
-    px = px.ffill().dropna(how="all")
 
     missing = [t for t in tickers if t not in px.columns]
     if missing:

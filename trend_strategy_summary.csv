@@ -1,0 +1,7 @@
+,total_return,total_return,total_return,sharpe_ratio,sharpe_ratio,sharpe_ratio,max_drawdown,max_drawdown,max_drawdown,win_rate,win_rate,win_rate,profit_factor,profit_factor,profit_factor
+,mean,std,max,mean,std,max,mean,std,min,mean,std,max,mean,std,max
+strategy,,,,,,,,,,,,,,,
+ema_crossover,6.999,36.934,129.11,0.163,0.284,0.844,45.536,18.67,18.706,29.783,7.583,60.0,1.12,0.486,3.847
+ema_vwap_combo,-125.886,58.485,-61.568,-0.253,0.418,0.291,131.483,48.974,78.608,,,,,,
+hull_trend,-58.216,42.009,107.146,-0.792,0.573,0.643,74.659,13.886,36.575,31.78,3.39,38.019,0.719,0.171,1.147
+vwap_breakout,-125.886,61.648,-61.568,-0.253,0.441,0.291,131.483,51.623,78.608,,,,,,

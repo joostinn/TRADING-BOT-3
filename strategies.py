@@ -43,11 +43,23 @@ def strategy_time_series_momentum_trend_filter(
     lookback_days: int = 252,
     ma_days: int = 200,
     assumptions: Optional[BacktestAssumptions] = None,
+    market_regime_filter: bool = True,
+    regime_ticker: str = "SPY",
+    tighten_stop_loss: bool = True,
+    stop_loss_multiplier: float = 1.5,
+    sharpe_scaling: bool = True,
+    sharpe_window: int = 252,
+    sharpe_threshold: float = 0.5,
+    vol_scaling: bool = True,
+    vol_lookback: int = 21,
 ) -> pd.DataFrame:
     """
-    Simple trend following:
+    Enhanced time series momentum with trend filter:
     - signal = sign(12m return) * 1{price > MA}
-    - position sized to hit target annual vol using EWMA daily vol
+    - market regime filter: only trade when regime_ticker > MA
+    - tighten stop loss during drawdowns
+    - reduce position size when rolling Sharpe < threshold
+    - volatility scaling: size inversely to recent vol
     - monthly rebalance
     """
     if assumptions is None:
@@ -58,11 +70,47 @@ def strategy_time_series_momentum_trend_filter(
     ma = px.rolling(ma_days, min_periods=ma_days).mean()
     signal = np.sign(mom) * (px > ma).astype(float)
 
+    # Market regime filter
+    if market_regime_filter and regime_ticker in px.columns:
+        regime_px = px[regime_ticker]
+        regime_ma = regime_px.rolling(ma_days, min_periods=ma_days).mean()
+        regime_active = (regime_px > regime_ma).astype(float)
+        signal = signal.mul(regime_active, axis=0)
+
     # Vol targeting: dollar weight per asset
     vol = daily_vol.copy()
     daily_target = assumptions.annual_target_vol / np.sqrt(252.0)
-    raw_w = signal.mul(daily_target).div(vol)
+
+    # Volatility scaling
+    if vol_scaling:
+        recent_vol = vol.rolling(vol_lookback, min_periods=vol_lookback).mean()
+        vol_scale = (vol / recent_vol).clip(lower=0.5, upper=2.0)  # Cap scaling
+        daily_target_scaled = daily_target / vol_scale
+    else:
+        daily_target_scaled = daily_target
+
+    raw_w = signal.mul(daily_target_scaled).div(vol)
     raw_w = raw_w.clip(lower=-assumptions.max_leverage, upper=assumptions.max_leverage)
+
+    # Sharpe-based scaling
+    if sharpe_scaling:
+        # Calculate rolling Sharpe ratio
+        returns = px.pct_change().fillna(0)
+        rolling_sharpe = (returns.rolling(sharpe_window).mean() / returns.rolling(sharpe_window).std()) * np.sqrt(252)
+        # Use portfolio-level Sharpe approximation
+        port_sharpe = rolling_sharpe.mean(axis=1)
+        sharpe_scale = (port_sharpe / sharpe_threshold).clip(lower=0.1, upper=1.0)
+        raw_w = raw_w.mul(sharpe_scale, axis=0)
+
+    # Stop loss tightening during drawdowns
+    if tighten_stop_loss:
+        # Calculate drawdown
+        cum_returns = (1 + returns).cumprod()
+        peak = cum_returns.expanding().max()
+        drawdown = (cum_returns - peak) / peak
+        # Tighten positions during drawdowns
+        dd_scale = 1.0 - (drawdown.abs() * stop_loss_multiplier).clip(lower=0, upper=0.8)
+        raw_w = raw_w.mul(dd_scale, axis=0)
 
     rebalance_days = _monthly_rebalance_dates(px.index)
     w = raw_w.loc[rebalance_days].reindex(px.index).ffill().fillna(0.0)

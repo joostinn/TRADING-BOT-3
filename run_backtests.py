@@ -42,10 +42,18 @@ def main() -> None:
     w_bh = strategy_buy_and_hold(rets, ticker="SPY")
     r_bh = backtest_from_weights(rets, w_bh, assumptions=assumptions)
 
-    w_ts = strategy_time_series_momentum_trend_filter(
-        adj_close=px, daily_vol=vol, lookback_days=252, ma_days=200, assumptions=assumptions
+    # Test different lookback windows
+    w_ts_252 = strategy_time_series_momentum_trend_filter(
+        adj_close=px, daily_vol=vol, lookback_days=252, ma_days=200, assumptions=assumptions,
+        market_regime_filter=True, tighten_stop_loss=True, sharpe_scaling=True, vol_scaling=True
     )
-    r_ts = backtest_from_weights(rets, w_ts, assumptions=assumptions)
+    r_ts_252 = backtest_from_weights(rets, w_ts_252, assumptions=assumptions)
+
+    w_ts_63 = strategy_time_series_momentum_trend_filter(
+        adj_close=px, daily_vol=vol, lookback_days=63, ma_days=200, assumptions=assumptions,
+        market_regime_filter=True, tighten_stop_loss=True, sharpe_scaling=True, vol_scaling=True
+    )
+    r_ts_63 = backtest_from_weights(rets, w_ts_63, assumptions=assumptions)
 
     w_xs = strategy_cross_asset_momentum_rotation(
         adj_close=px,
@@ -57,7 +65,12 @@ def main() -> None:
     )
     r_xs = backtest_from_weights(rets, w_xs, assumptions=assumptions)
 
-    strat_returns = {"BuyHold_SPY": r_bh, "TSMOM_Trend": r_ts, "XAsset_MomRot": r_xs}
+    strat_returns = {
+        "BuyHold_SPY": r_bh,
+        "TSMOM_252d_Enhanced": r_ts_252,
+        "TSMOM_63d_Enhanced": r_ts_63,
+        "XAsset_MomRot": r_xs
+    }
     table = stats_table(strat_returns)
     table.to_csv(out_dir / "stats.csv")
 

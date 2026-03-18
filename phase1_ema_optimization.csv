@@ -1,0 +1,2465 @@
+total_return,sharpe_ratio,max_drawdown,win_rate,profit_factor,total_trades,portfolio,symbol,fast_period,slow_period,filters
+97.2418840504603,0.6549261234243727,33.71725271441379,50.0,3.2466877615470087,11,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB683770E0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB684F8B50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6B131530> of shape (11,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6B131350> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB68CA2370> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",SPY,5,50,True
+0.10879402953312092,0.10724192198312003,31.702453527210533,29.411764705882355,0.9910623178041531,69,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C832390> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6C8B9050> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6C759B90> of shape (69,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6C759C50> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6C75AEB0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",SPY,5,50,False
+107.51295518005917,0.6956445373978699,33.71725271441379,28.57142857142857,3.4969886638191734,8,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB68CB0710> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6C942F50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6C955110> of shape (8,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6C955350> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6C9540F0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",SPY,5,100,True
+56.30532475916049,0.47422518401304287,26.267477656918274,34.375,1.8853015597597573,33,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C831190> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6C9C6ED0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6C9CA8B0> of shape (33,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6C9CA6D0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6C9CA250> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",SPY,5,100,False
+127.27484254711221,0.7617460711661203,33.71725271441379,20.0,3.0009561807483824,6,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4C7710> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6C990050> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6C824510> of shape (6,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6C6CE1F0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6C824A50> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",SPY,5,150,True
+29.86217241727206,0.32192672474388495,36.62886928830725,25.806451612903224,1.159394000873504,32,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6CBF0B90> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6CC1E8D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6CC29EF0> of shape (32,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6CC29D10> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6CC29890> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",SPY,5,150,False
+143.97414161755924,0.8283162079309132,33.71725271441379,50.0,6.547858077760558,3,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C98B890> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6CC373D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6CA93F30> of shape (3,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6CA935D0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6CA93BD0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",SPY,5,200,True
+8.182590208043548,0.17274302104064188,39.33683097355069,18.181818181818183,0.8766915838771402,34,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C98B1D0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6CAB2B50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6CAA6250> of shape (34,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6CAA6070> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6CAA5BF0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",SPY,5,200,False
+109.76647512493642,0.7043816471739536,33.71725271441379,42.857142857142854,3.600031889984586,8,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C98ABD0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6CBF46D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6CBC2CD0> of shape (8,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6CBC2910> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6CBC1590> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",SPY,8,50,True
+12.431325694886779,0.2037969895982749,34.57124460487713,31.48148148148148,1.0966376711609955,55,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C988290> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6CCA9ED0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6CC9FED0> of shape (55,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6CC9FCF0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6CC9F870> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",SPY,8,50,False
+103.08622467722124,0.6785232753246545,33.71725271441379,28.57142857142857,3.3238607233184387,8,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C98B350> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6CCD5850> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6CD2C990> of shape (8,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6CD2C5D0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6CD2CE70> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",SPY,8,100,True
+90.6300260669784,0.6383126653730651,29.600148866809505,41.66666666666667,2.587857302567548,25,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C860050> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6C8B1050> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6C8A4ED0> of shape (25,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6C8A4AB0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6C8A4E70> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",SPY,8,100,False
+127.13910353239324,0.7609136392514935,33.71725271441378,20.0,2.81097149418873,6,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C860590> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6C309750> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6C4AC570> of shape (6,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6C4AD290> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6C4ACA50> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",SPY,8,150,True
+31.35174560767523,0.33222538848669925,41.792816674884115,20.689655172413794,1.1577630020020029,30,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C862690> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6C2EAAD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6C6AA490> of shape (30,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6C6AB0F0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6C6AAF10> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",SPY,8,150,False
+149.69646101794666,0.8470777128967978,33.71725271441379,50.0,8.375951235121954,3,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C862F90> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB68DA6CD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6C55F150> of shape (3,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6C55EEB0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6C55DAD0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",SPY,8,200,True
+6.558416863770268,0.1621464152493142,39.74095193555566,17.391304347826086,0.8492675442040635,24,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C863A10> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6C76ACD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6C3C4F90> of shape (24,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6C3C5710> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6C3C57D0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",SPY,8,200,False
+151.37631931623275,0.8658628427722876,33.71725271441378,57.14285714285714,6.64417722320084,8,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C8607D0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6C71BDD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB68E63150> of shape (8,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB68EB4E70> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB68EB6CD0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",SPY,12,50,True
+18.60693141835407,0.24776125352858366,32.69354733561666,33.33333333333333,1.2017197645678672,43,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C862810> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6C4BFD50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6BED7630> of shape (43,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6BED77B0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6BED48D0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",SPY,12,50,False
+141.8579591181603,0.8340406969558727,33.71725271441379,57.14285714285714,5.926088856381878,8,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C863110> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6C907BD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6BE81770> of shape (8,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6BE82DF0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6BE812F0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",SPY,12,100,True
+90.53589352992631,0.6397676788921636,31.873075165837584,45.0,2.5551448746437497,21,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C8634D0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6C5935D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6BDE4A50> of shape (21,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6BDE4F90> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6BDE5830> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",SPY,12,100,False
+152.49825858832895,0.8447588046099871,33.71725271441379,33.33333333333333,12.577825963372657,4,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C860110> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6C5EC8D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6BD10CF0> of shape (4,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6BD10AB0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6BD10D50> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",SPY,12,150,True
+30.42781577546797,0.32500150892438945,38.34474373200456,21.052631578947366,1.1853666532364622,20,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C860E90> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6BE5C4D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6BCB7150> of shape (20,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6BCB6D30> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6BCB7F90> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",SPY,12,150,False
+139.5725373407157,0.8137763818307358,33.71725271441379,50.0,6.01735234321261,3,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C861F10> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6B3DE950> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6BC81350> of shape (3,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6BC80C30> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6BC83690> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",SPY,12,200,True
+-4.642363212779106,0.07459229836854007,44.80803110136358,19.047619047619047,0.7635473196173543,22,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C861490> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6B532050> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6B70F9F0> of shape (22,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6B70EDF0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6B70E730> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",SPY,12,200,False
+143.85698157138677,0.8407557580887932,33.71725271441379,57.14285714285714,5.933641209969931,8,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C861E50> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6B5BC8D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6BBDA010> of shape (8,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6BBDBAB0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6BBDB0F0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",SPY,15,50,True
+33.09692149385417,0.3424942210783711,33.56601347548689,34.375,1.4074809142429283,33,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C863410> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6BE500D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6BBA5E90> of shape (33,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6BBA6490> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6BBA6910> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",SPY,15,50,False
+151.39245899048385,0.8669048365821465,33.71725271441379,57.14285714285714,6.712638486232685,8,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C863D10> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6B686AD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6BB679F0> of shape (8,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6BB67270> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6BB65110> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",SPY,15,100,True
+81.98420408667778,0.6013799067056851,32.156997474484534,45.0,2.2392388791562867,21,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C862510> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6BCCF650> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6B5A5CB0> of shape (21,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6B5A6130> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6B5A62B0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",SPY,15,100,False
+197.4380465215838,1.0011554949203236,33.71725271441379,66.66666666666666,40.13265907414151,4,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C862990> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6BC0DFD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6BB323D0> of shape (4,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6BB307B0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6BB30ED0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",SPY,15,150,True
+3.2339069976385795,0.1371901164141547,39.66246027440138,21.052631578947366,0.8660042787458879,20,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C8622D0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6C3C96D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6B1E8330> of shape (20,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6B1EAC70> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6B1E8390> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",SPY,15,150,False
+145.02472409722543,0.8320899646894226,33.71725271441379,50.0,7.497080052411572,3,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C861FD0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6C326B50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6CD70F90> of shape (3,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6CD70BD0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6CD70630> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",SPY,15,200,True
+-4.667076516561574,0.0749377856706858,36.46479263869567,21.052631578947366,0.7631620773088706,20,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C8610D0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6C38CB50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6BDE9D10> of shape (20,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6BDE9B30> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6BDE96B0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",SPY,15,200,False
+54.420056398132196,0.42128041748343215,38.27609905118076,50.0,1.7132529750359031,23,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4A4D10> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6C372ED0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6BD9A970> of shape (23,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6BD9A5B0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6BD993B0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",QQQ,5,50,True
+8.691942287719677,0.1894438434068033,38.537320321602344,27.419354838709676,1.0605117449165864,63,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4A5310> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6B7BA050> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6B777630> of shape (63,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6B777450> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6B776FD0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",QQQ,5,50,False
+244.22390391948653,0.986016015132588,28.559366939837094,63.63636363636363,4.321406858352681,12,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4A7F50> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6B77EE50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6B7D7F30> of shape (12,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6B7FC7B0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6B7FC810> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",QQQ,5,100,True
+126.06583859778608,0.6729249493172995,25.764458670555555,37.5,2.0289779365118634,33,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4A7AD0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6BB42050> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6BBDC690> of shape (33,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6BBDC4B0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6BBDC030> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",QQQ,5,100,False
+326.83985345191036,1.140341863837033,28.559366939837087,71.42857142857143,12.053924245766984,8,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4A44D0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6BB88E50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6C0212F0> of shape (8,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6C020F30> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6C0206F0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",QQQ,5,150,True
+112.10632677062988,0.6252633521535044,34.76156944086235,42.857142857142854,2.141311477948048,22,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4A6E10> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6C028F50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6C6FDFB0> of shape (22,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6C6FDDD0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6C6FD950> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",QQQ,5,150,False
+206.46896047390092,0.871285420400216,35.11872959404186,50.0,5.265632288078494,5,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4A7110> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6C6869D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6C662C10> of shape (5,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6C662850> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6C6614D0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",QQQ,5,200,True
+118.35816431788729,0.6400482714153912,33.051865701363226,26.31578947368421,2.0688229239824656,20,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4A7410> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6B958950> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6B9E38D0> of shape (20,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6B9E36F0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6B9E3270> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",QQQ,5,200,False
+82.02286228078283,0.5285620922714879,39.366800638825524,40.0,1.91762587266391,16,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4A6BD0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6B93D6D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6BF4FA50> of shape (16,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6BF4FB70> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6BF4E5B0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",QQQ,8,50,True
+-3.4726745491968467,0.1120940238047974,39.127220012223894,30.357142857142854,0.9837552090022467,57,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4A7590> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6BF80C50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6BF209F0> of shape (57,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6BF20810> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6BF20390> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",QQQ,8,50,False
+256.29152293022025,1.0094988971084813,28.559366939837087,66.66666666666666,5.41388002565249,10,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4A77D0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6BFD20D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6B885650> of shape (10,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6B885290> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6B884210> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",QQQ,8,100,True
+97.95354044492773,0.5802813383200905,30.136704085481437,42.30769230769231,1.997211475441506,27,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4A6A50> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6B4FA150> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6B47A310> of shape (27,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6B47A130> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6B479CB0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",QQQ,8,100,False
+304.78456571555097,1.1005301843244444,28.559366939837094,71.42857142857143,10.259201787985528,8,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4A5610> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6B4CF550> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6B476730> of shape (8,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6B476370> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6B474FF0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",QQQ,8,150,True
+114.40979561659368,0.630151754290976,32.164878399475654,33.33333333333333,2.2394159710530297,16,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4A7B90> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6CDBAD50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6CDB34B0> of shape (16,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6CDB32D0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6CDB2E50> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",QQQ,8,150,False
+202.40824052107857,0.854248987632416,35.11872959404185,60.0,4.852222826703591,6,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4A6990> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6CDE9550> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6CE1FED0> of shape (6,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6CE1FBD0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6CE1E9D0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",QQQ,8,200,True
+23.580811253633815,0.274227789927987,44.27925575515348,26.31578947368421,0.9969242577414545,20,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4A6510> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6BAC2E50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6BA1CC90> of shape (20,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6BA1CAB0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6BA1C630> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",QQQ,8,200,False
+160.13656035630618,0.7899501407841362,28.559366939837087,61.53846153846154,2.6121170873398007,14,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4A7A10> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6BA35CD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6CE55710> of shape (14,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6CE55350> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6CE541B0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",QQQ,12,50,True
+44.251526882598554,0.37583802576599923,24.850407863832565,40.476190476190474,1.3744073459722406,43,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4A5A90> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6B831C50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6CE81AD0> of shape (43,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6CE818F0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6CE81470> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",QQQ,12,50,False
+316.8030910947723,1.118834023213248,28.559366939837094,71.42857142857143,11.553538143984849,8,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4A50D0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6CEA3B50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6CF12550> of shape (8,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6CF12190> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6CF10E10> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",QQQ,12,100,True
+110.82351412329183,0.6256315393064944,26.176117989778085,55.55555555555556,2.4449488211598727,19,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4FF710> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6F0748D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6F06B750> of shape (19,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6F06B570> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6F06B0F0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",QQQ,12,100,False
+325.61257010606977,1.1349692332588763,28.559366939837094,71.42857142857143,12.535287283344088,8,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4FFD10> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6F09BC50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6F0D6A90> of shape (8,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6F0F4630> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6F0D7F30> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",QQQ,12,150,True
+76.73473704396466,0.500270070209862,44.617728743946316,45.45454545454545,1.7843626167941438,12,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4FC350> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6F10D350> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6F129410> of shape (12,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6F129230> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6F128DB0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",QQQ,12,150,False
+187.0458851692007,0.820286329001672,35.118729594041845,40.0,3.7293297949258477,6,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C863DD0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6CF1B550> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6F1D0ED0> of shape (6,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6F1D0B10> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6F1D0150> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",QQQ,12,200,True
+30.443210988558857,0.30916976456323453,51.94608589933436,26.666666666666668,1.12831992129379,16,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4FC110> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6F239FD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6F2420D0> of shape (16,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6F241EF0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6F241A70> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",QQQ,12,200,False
+182.6313823806172,0.8474206025677157,28.559366939837087,63.63636363636363,2.8618681244176676,12,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4FCF50> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6F25DA50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6F2A2B50> of shape (12,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6F2A2790> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6F2A1410> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",QQQ,15,50,True
+-6.1144221649519315,0.09339470184411565,40.715707500139544,35.714285714285715,0.9360040038534224,43,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4FCA10> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6F3291D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6F31FD50> of shape (43,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6F31FB70> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6F31F6F0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",QQQ,15,50,False
+323.357984983927,1.1314165860289944,28.559366939837094,71.42857142857143,12.336155076512718,8,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4FFF50> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6F34BBD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6F3A8810> of shape (8,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6F3A8C90> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6F3A81B0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",QQQ,15,100,True
+158.197779014045,0.7548133343600222,26.51393376623658,62.5,3.498109410094998,17,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4FD850> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6F400D50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6F410750> of shape (17,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6F410570> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6F4100F0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",QQQ,15,100,False
+302.93695071989487,1.1006391725505822,28.5593669398371,57.14285714285714,11.002793363235483,8,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4FE990> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6F41FE50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6F4791D0> of shape (8,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6F478E10> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6F4785D0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",QQQ,15,150,True
+100.8719058344478,0.5860026441677095,30.757751866281268,45.45454545454545,2.2549543057017787,12,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4FD550> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6F48D550> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6F4EE3D0> of shape (12,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6F4EE1F0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6F4EDD70> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",QQQ,15,150,False
+344.52965760351844,1.1564717824772761,28.559366939837087,60.0,17.187829150830066,6,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4FD910> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6F507850> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6F542E50> of shape (6,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6F542A90> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6F541710> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",QQQ,15,200,True
+22.731024005156897,0.27060976109730805,50.35582944573462,17.647058823529413,1.057917776993712,18,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4FF7D0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6F5DAFD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6F5D3E70> of shape (18,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6F5EC090> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6F5D39F0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",QQQ,15,200,False
+-0.057368612353704516,0.14003113060952413,43.7464591326301,46.666666666666664,0.9835537598856332,16,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4FD010> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6F5DAD50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6F6272D0> of shape (16,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6F626F10> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6F625D10> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",IWM,5,50,True
+-11.222575069635727,0.05351078692761201,43.339989177796596,29.166666666666668,0.9212625807173341,73,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4FF1D0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6F6A6050> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6F69BF90> of shape (73,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6F69BDB0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6F69B930> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",IWM,5,50,False
+27.74621407867016,0.29547302063654096,42.68685603515856,33.33333333333333,1.7399710704888025,7,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4FD3D0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6F6DD650> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6F728B70> of shape (7,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6F7287B0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6F728FF0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",IWM,5,100,True
+-17.988424274651596,-0.002477494337659514,50.01089758767824,26.923076923076923,0.8582064603873112,53,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4FEA50> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6F788FD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6F7A5590> of shape (53,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6F7A53B0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6F7A4F30> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",IWM,5,100,False
+59.237998061897116,0.43357546069333186,42.68685603515856,0.0,0.0,3,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4FF890> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6F80DE50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6F8112F0> of shape (3,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6F8128B0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6F8110B0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",IWM,5,150,True
+9.12283551326103,0.19041020592501473,43.091570355757476,24.242424242424242,0.886815451746441,34,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4FDC10> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6F872750> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6F876850> of shape (34,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6F876670> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6F8761F0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",IWM,5,150,False
+52.790254678809724,0.40781449696145244,42.89283879996952,25.0,2.0370493870174595,5,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C4FE690> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6F8046D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6F8EB4B0> of shape (5,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6F8EB0F0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6F8E9D70> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",IWM,5,200,True
+-24.74985628795544,-0.05629061768546757,56.27454585467806,10.256410256410255,0.5199418928919992,40,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C35B950> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6F970250> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6F95FE10> of shape (40,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6F980270> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6F980090> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",IWM,5,200,False
+20.82974281344528,0.2599586030657153,42.89283879996956,38.46153846153847,1.4664708492873322,14,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C35B590> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6F978F50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6FA00ED0> of shape (14,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6FA00B10> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6FA00150> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",IWM,8,50,True
+-9.56129907066298,0.0648885357464964,45.69128969676789,29.310344827586203,0.9329433332643067,59,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C35BE90> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6FA46BD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6FA650B0> of shape (59,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6FA64ED0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6FA64A50> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",IWM,8,50,False
+94.5861227063899,0.5661949522954354,43.34051922928482,50.0,6.727929580474755,5,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C35A090> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6FA81950> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6FAD5D10> of shape (5,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6FAD5950> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6FAD45D0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",IWM,8,100,True
+-23.08293311146923,-0.041737913786506924,51.05465091760502,25.0,0.8001988790803879,45,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C3587D0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6FB447D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6FB3EA90> of shape (45,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6FB3E8B0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6FB3E430> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",IWM,8,100,False
+50.38205672082846,0.39784606389751653,43.340519229284865,25.0,1.7719899003935375,5,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C358950> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6FB514D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6FBBB6F0> of shape (5,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6FBBB330> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6FBB9FB0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",IWM,8,150,True
+-10.361438420246035,0.0590945947230719,44.74796248173762,22.22222222222222,0.6931506982534246,28,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C35AC90> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6FC39CD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6FC4C3F0> of shape (28,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6FC4C090> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6FC4C030> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",IWM,8,150,False
+40.68446395650727,0.35604179364151756,43.340519229284865,16.666666666666664,1.080133099845396,7,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C358410> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6FC999D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6FCC4690> of shape (7,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6FCC4930> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6FCC4030> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",IWM,8,200,True
+-21.864416505499218,-0.030205840979827373,57.90564896644903,17.24137931034483,0.528071089077689,30,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C35A210> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6FD1D9D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6FD31350> of shape (30,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6FD31170> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6FD30CF0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",IWM,8,200,False
+62.622458379614635,0.4526021272920659,43.90908477342592,55.55555555555556,3.530234436278957,10,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C35A990> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6FD58DD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6FDA1FB0> of shape (10,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6FDA1BF0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6FDA0870> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",IWM,12,50,True
+-36.565912943279024,-0.17321591972282016,60.89775672925176,29.629629629629626,0.7351541774979311,55,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C358F50> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6FE17ED0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6FE0AC70> of shape (55,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6FE0AA90> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6FE0A610> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",IWM,12,50,False
+101.10059486802537,0.5873766461440659,41.44363878868687,50.0,8.8023732961241,5,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C358350> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6FE4A150> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6FE7F8D0> of shape (5,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6FE7F510> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6FE7E190> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",IWM,12,100,True
+-9.716530230441816,0.06379356456792357,44.54343308950545,21.21212121212121,0.7512438489232416,34,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C359A90> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6FEF7250> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6FEEFD50> of shape (34,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6FEEFB70> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6FEEF6F0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",IWM,12,100,False
+55.4710988095438,0.41874650747146996,41.44363878868688,25.0,2.2874752965885934,5,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C359190> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6FEA6850> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6FF889F0> of shape (5,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6FF88630> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6FF880F0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",IWM,12,150,True
+-31.129195510096963,-0.11429203025768889,54.78415917519065,11.11111111111111,0.48121732778864507,28,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C35ABD0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6FFEC5D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB6FFF96B0> of shape (28,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB6FFF94D0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB6FFF9050> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",IWM,12,150,False
+41.13855666328303,0.35806357681650824,41.349978790587315,16.666666666666664,1.091786393088996,7,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C359010> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB6FFF5BD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB72066310> of shape (7,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB72065F50> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB72064BD0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",IWM,12,200,True
+-40.72263075661864,-0.21601940803374078,61.29929472902762,9.090909090909092,0.38347498463404445,34,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C359490> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB720DDDD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB720D6FD0> of shape (34,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB720D6DF0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB720D6970> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",IWM,12,200,False
+115.45201146615034,0.6358079918528002,41.072380442589896,100.0,inf,5,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C358890> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB7206CDD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB7213F3F0> of shape (5,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB7213F030> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB7213DCB0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",IWM,15,50,True
+-8.918632935844828,0.06911727051022258,51.59628670257855,34.78260869565217,0.9288390455112869,47,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C35A150> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB721C9DD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB721BFA50> of shape (47,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB721E40F0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB721BFED0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",IWM,15,50,False
+90.84646216362086,0.5536760381944162,43.909084773425924,50.0,5.647248244496693,5,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C35AA50> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB722014D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB72254D50> of shape (5,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB72254990> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB72254090> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",IWM,15,100,True
+-10.409735494668348,0.06041942126749206,41.346443265734514,22.22222222222222,0.7202227611913247,28,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C35A450> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB722B8D50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB722C56B0> of shape (28,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB722C54D0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB722C5050> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",IWM,15,100,False
+37.79775895087331,0.34301874630468415,43.909084773425924,16.666666666666664,0.9723286161106158,7,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C35B410> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB722C9B50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB72329C50> of shape (7,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB72329890> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB72328690> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",IWM,15,150,True
+-28.402172046453543,-0.0919756995644598,52.25518956545111,12.0,0.48902038757163757,26,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BEAC710> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB723B1450> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB723AAE50> of shape (26,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB723AAC70> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB723AA7F0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",IWM,15,150,False
+30.428233296553675,0.3085390681654606,43.90908477342592,16.666666666666664,0.7669198633080769,7,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BEAE450> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB723D4ED0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB7240F8D0> of shape (7,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB7240F510> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB7240E190> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",IWM,15,200,True
+-21.228983453320602,-0.023614625389861758,52.135663091904995,21.73913043478261,0.512015600835833,24,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BEAD790> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB724AC4D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB72460B10> of shape (24,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB72460930> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB724604B0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",IWM,15,200,False
+15.279619159976487,0.23459841682147453,47.45447545690013,41.66666666666667,1.141964278775204,25,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BEAD310> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB724CF850> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB72535590> of shape (25,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB725351D0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB725340F0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLK,5,50,True
+20.997518234428586,0.2614450214806059,37.112496325837675,31.25,1.117108461741456,65,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BEACD10> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB7252A5D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB725A9590> of shape (65,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB725A93B0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB725A8F30> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLK,5,50,False
+158.09354896239424,0.7056649780509443,39.269892913502034,60.0,4.538934199681608,11,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BEAED50> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB725AC4D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB72606010> of shape (11,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB72605C50> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB726048D0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLK,5,100,True
+96.16729397288503,0.5514240693321858,33.36992451535594,38.23529411764706,1.6094640959348192,35,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BEAF110> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB7268C750> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB72683210> of shape (35,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB72683030> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB72682BB0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLK,5,100,False
+254.8849673192685,0.9018721580491538,38.84547875071016,50.0,7.7986166737921945,5,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BEACA10> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB726AFAD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB726F39F0> of shape (5,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB726F3B10> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB726F2550> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLK,5,150,True
+66.3379585206142,0.4493296354585435,35.618628707665984,32.0,1.5893028264005404,26,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BEAFDD0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB727311D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB7279CED0> of shape (26,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB7279CCF0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB7279C870> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLK,5,150,False
+259.0442878210456,0.9087929042166899,33.55906259454289,50.0,6.793312807733262,5,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BEAE150> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB7277F8D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB727FC990> of shape (5,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB727FC5D0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB727FCE70> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLK,5,200,True
+58.87460056173077,0.41907188371346815,44.01559596706163,31.57894736842105,1.3774534382426347,20,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BEAC890> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB7286DE50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB7282DB90> of shape (20,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB7282D9B0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB7282D530> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLK,5,200,False
+87.00805573217318,0.5174899876870633,35.85131849945443,56.25,2.508311523924523,17,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BEADC10> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB72821650> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB728E6610> of shape (17,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB728E6250> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB728E4ED0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLK,8,50,True
+-10.94974216904724,0.07899073312895957,35.05039825258624,30.0,0.9336736482330972,61,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BEADE50> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB72970ED0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB72967810> of shape (61,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB72967630> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB729671B0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLK,8,50,False
+240.94550824038444,0.8760410685683808,34.89096886140221,75.0,11.245795857924843,9,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BEAE990> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB72993A50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB729CFF30> of shape (9,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB729F87B0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB729F8810> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLK,8,100,True
+36.03621874087629,0.3315259629027243,37.76427920105251,33.33333333333333,1.2820203240881423,31,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BEAD0D0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB72A48BD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB72A43F30> of shape (31,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB72A24210> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB72A240F0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLK,8,100,False
+284.38216665003023,0.9492998509278827,33.55906259454288,50.0,3.718218802735779,3,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BEAF890> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB72A6FCD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB72AD4C90> of shape (3,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB72AD48D0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB72AD4030> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLK,8,150,True
+82.66080326475904,0.5055402908833356,41.724459071637675,36.84210526315789,1.4757798249979348,20,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BEAC650> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB72AF13D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB72B51E90> of shape (20,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB72B51CB0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB72B51830> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLK,8,150,False
+242.9482567068952,0.8815387940386653,33.55906259454288,50.0,5.178919824979898,5,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BEAD250> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB72B6F6D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB72BBE910> of shape (5,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB72BBE550> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB72BBD1D0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLK,8,200,True
+79.18782768300909,0.48681951046280053,40.9368863212283,33.33333333333333,1.6342182087184396,16,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BDFE8D0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB72C46E50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB72C3BB10> of shape (16,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB72C3B930> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB72C3B4B0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLK,8,200,False
+135.8136962237771,0.6569221592013517,36.15815952603656,66.66666666666666,3.3364228136592553,13,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BEAE690> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB72BCD9D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB72C9F690> of shape (13,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB72C9F2D0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB72C9DF50> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLK,12,50,True
+-18.43268658516505,0.023598899162280123,51.10630483258408,33.33333333333333,0.8924358046530007,55,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BDFD490> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB72D2D550> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB72D448D0> of shape (55,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB72D446F0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB72D44270> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLK,12,50,False
+297.4111050937776,0.9691955360174392,34.53644889839307,80.0,12.497287312985963,6,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BDFFDD0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB72D68FD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB72DB9350> of shape (6,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB72DB8F90> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB72DB8750> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLK,12,100,True
+36.89826132179325,0.3357611793447053,53.48532734268975,34.61538461538461,1.2167576263263968,27,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BDFF410> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB72E385D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB72E3E550> of shape (27,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB72E3E370> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB72E3DEF0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLK,12,100,False
+247.28661011999824,0.8980427782025066,34.464695756838445,50.0,2.6622068719231513,7,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BEAF4D0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB72E51D50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB72EAA0D0> of shape (7,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB72EA9D10> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB72EA90B0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLK,12,150,True
+68.08812465141423,0.4515821078349902,40.87281144722461,26.666666666666668,1.4927713867312251,16,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BDFEC90> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB72F22DD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB72F172D0> of shape (16,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB72F170F0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB72F16C70> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLK,12,150,False
+262.9744748221653,0.9152681121487894,33.55906259454289,50.0,6.791440639170538,5,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BDFDB50> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB72F4A850> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB72F8BA50> of shape (5,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB72F8BD50> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB72F8A610> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLK,12,200,True
+30.830930837439098,0.3097624227396532,47.800858770816916,20.0,1.1145718274874592,16,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BDFD310> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB74025FD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB74034F90> of shape (16,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB74034DB0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB74034930> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLK,12,200,False
+184.37680308168703,0.7676548958908677,34.8909688614022,66.66666666666666,3.8228997010454364,10,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BDFCAD0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB74055A50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB740B5A10> of shape (10,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB740B5650> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB740B42D0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLK,15,50,True
+-1.9773576248670142,0.1366571915511138,44.60871781958499,42.5,1.007782427865594,41,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BDFE810> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB72FA52D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB74125A10> of shape (41,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB74125830> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB741253B0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLK,15,50,False
+298.0329619880069,0.9698300838712541,34.536448898393054,80.0,12.700539967403767,6,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BDFCD10> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB7413A4D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB7418E490> of shape (6,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB7418E0D0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB7418CD50> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLK,15,100,True
+49.799368194868,0.38792290873958973,41.19927051625679,40.0,1.411148203516999,21,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BDFDCD0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB74216250> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB7420B690> of shape (21,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB7420B4B0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB7420B030> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLK,15,100,False
+239.99778329918283,0.8858059917270534,34.12222206728992,50.0,4.9405706855766205,9,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BDFD910> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB74245CD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB7427FED0> of shape (9,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB7427FBD0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB7427E9D0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLK,15,150,True
+67.7976334437491,0.4515100428512255,47.336155746430656,38.46153846153847,1.5535092537421127,14,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BDFEA50> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB7431D450> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB74329350> of shape (14,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB74329170> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB74328CF0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLK,15,150,False
+225.78058130715428,0.8508066657588128,33.55906259454289,50.0,8.545936040601593,7,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BDFDF10> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB743253D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB74398E10> of shape (7,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB74398A50> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB74398090> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLK,15,200,True
+38.01024044735901,0.34013222868941895,40.53621995495351,20.0,1.1775135093029163,16,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BDFFF50> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB743FB650> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB7440A010> of shape (16,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB74409E30> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB744099B0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLK,15,200,False
+52.079569134785444,0.41113172923913555,43.617542730511886,36.36363636363637,2.0386261670181844,12,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BDFC890> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB7249B450> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB7447AA90> of shape (12,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB7447A6D0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB744794D0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLF,5,50,True
+-56.01277289833,-0.45864018348234326,60.664657012876354,19.318181818181817,0.5383619278595999,89,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BCC6A50> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB744957D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB74503CF0> of shape (89,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB74503B10> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB74503690> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLF,5,50,False
+86.98439351897116,0.5465606067820588,42.936751131263506,57.14285714285714,5.795905463405907,8,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BCC5CD0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB74537250> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB745A07B0> of shape (8,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB745A0CF0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB745A0150> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLF,5,100,True
+-11.491144780102244,0.03787529697589226,40.00768837903675,14.583333333333334,0.8542489022987381,49,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BDFE2D0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB722E6AD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB745EB3F0> of shape (49,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB745EB210> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB745EAD90> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLF,5,100,False
+73.17702440822835,0.4961884600538567,44.435380546130986,25.0,3.3992961017084484,5,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BDFF050> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB74640A50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB74637E10> of shape (5,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB74637CF0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB74636910> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLF,5,150,True
+-34.11753376995639,-0.1635214300509873,56.150998179896426,15.909090909090908,0.5844697570513958,45,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BDFC4D0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB746419D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB746CC630> of shape (45,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB746CC2D0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB746CC330> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLF,5,150,False
+38.93995497274527,0.3516655951065221,44.435380546130965,0.0,0.0,5,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BDFEE10> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB746FC050> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB74751BF0> of shape (5,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB74751830> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB747504B0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLF,5,200,True
+-39.90023079285419,-0.22819957027321375,63.81231947249278,19.444444444444446,0.5201934882397976,37,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C35B050> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB747C0FD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB747BE610> of shape (37,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB747BE430> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB747BDFB0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLF,5,200,False
+116.70152512945396,0.6522728440586065,44.24879225972311,71.42857142857143,7.973427675985337,8,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6C861B50> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB747CD1D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB7482A7F0> of shape (8,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB7482A430> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB74828C30> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLF,8,50,True
+-39.2356245756337,-0.23089529910108586,45.78964194893882,23.61111111111111,0.6597824054132417,73,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BCC4A10> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB74860ED0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB748AFB70> of shape (73,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB748AF990> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB748AF510> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLF,8,50,False
+87.87446794389503,0.5552550277001286,45.527811499982015,50.0,6.20144029721075,7,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BCC6E10> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB748B7BD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB74950810> of shape (7,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB74950C90> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB749501B0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLF,8,100,True
+-15.575014096712824,0.008005907199766241,44.637941480041924,19.444444444444446,0.8182082086387932,37,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BCC5C10> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB749BD850> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB749D1590> of shape (37,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB749D13B0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB749D0F30> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLF,8,100,False
+55.76275440925048,0.4269423077699247,44.50050870774706,33.33333333333333,3.6858459340885066,7,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BCC5850> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB7494ED50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB74A3D710> of shape (7,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB74A3D350> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB74A3C1B0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLF,8,150,True
+-26.70973196306154,-0.0871225000936913,57.81954097753187,18.75,0.6336847435055287,33,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BCC56D0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB74AB2950> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB74AB6610> of shape (33,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB74AB6430> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB74AB5FB0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLF,8,150,False
+108.39617347726616,0.6192408793849957,42.86254782997601,,,1,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BCC7410> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB74AEC3D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB74B1F270> of shape (1,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB74B1EEB0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB74B1DB30> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLF,8,200,True
+-25.8691850666681,-0.08172579423355357,50.86140787355016,17.647058823529413,0.686584151553819,35,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC599D0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB74B71AD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB74CF34B0> of shape (35,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB74CF32D0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB74CF2E50> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLF,8,200,False
+89.84530589804106,0.5631631986552282,44.87336040139941,66.66666666666666,6.72053092884098,7,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC59E50> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB74D73CD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB74D8C570> of shape (7,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB74D8CAB0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB74D8C990> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLF,12,50,True
+-24.238654339768516,-0.07238181769636742,44.3132685192213,19.642857142857142,0.7390940596270569,57,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC5A5D0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB74DE9750> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB74E04F90> of shape (57,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB74E04DB0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB74E04930> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLF,12,50,False
+73.15260852887955,0.5005098036343055,47.048033263473066,50.0,4.347761583147407,7,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC26390> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB74E71B50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB74E85F50> of shape (7,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB74E85B90> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB74E84810> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLF,12,100,True
+-18.36209296157851,-0.014699839658462804,43.642573197490506,20.0,0.751281431077937,31,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC5BA10> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB74A529D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB74CD4330> of shape (31,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB74CD40F0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB74CD4210> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLF,12,100,False
+79.62347087022358,0.5211008075102341,42.86254782997601,50.0,7.203333640245669,5,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC5AD50> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB74ED7550> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB74F352F0> of shape (5,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB74F34F30> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB74F346F0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLF,12,150,True
+10.370695113519659,0.19386810699714005,40.119899319359185,33.33333333333333,1.063621321284193,25,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC59310> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB74F92650> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB74FA1D10> of shape (25,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB74FA1B30> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB74FA16B0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLF,12,150,False
+104.97606434643205,0.6083935994928422,42.862547829976016,,,1,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC59190> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB74FC06D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB77012D90> of shape (1,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB770129D0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB77011650> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLF,12,200,True
+-20.665227963369514,-0.03547566823980928,53.43735699958353,19.230769230769234,0.7097987691223684,27,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC59550> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB7709C3D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB7708F7B0> of shape (27,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB7708F5D0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB7708F150> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLF,12,200,False
+73.34068525992977,0.5012141684014065,46.64105672195306,50.0,4.329251679479895,7,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC5B050> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB77016550> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB77103A50> of shape (7,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB77103B70> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB771025B0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLF,15,50,True
+-3.8374675008191987,0.09663201734624094,36.54930019775587,25.0,0.9066967994828871,45,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC5B410> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB77129650> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB7719C750> of shape (45,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB7719C570> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB7719C0F0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLF,15,50,False
+106.27862807027083,0.6180279619984531,42.86254782997601,75.0,7.907155438022444,5,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC5B7D0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB771AA350> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB772257D0> of shape (5,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB77225410> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB772241B0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLF,15,100,True
+-29.328626684998945,-0.1112755919514771,45.32885416445117,15.625,0.6452225409708723,33,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC58410> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB77281DD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB7728E1F0> of shape (33,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB7728E010> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB7728DB90> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLF,15,100,False
+103.34021184351705,0.6099953075604855,42.86254782997602,50.0,3.6911295414854073,5,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC5A2D0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB77309E50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB772FF1B0> of shape (5,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB772FEDF0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB772FDA70> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLF,15,150,True
+-29.101896950439492,-0.11548168188203639,44.93036292950638,25.0,0.6415434641070747,25,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC5B110> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB773757D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB7736B150> of shape (25,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB7736AF70> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB7736AAF0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLF,15,150,False
+62.14349911837117,0.4535240794254471,42.86254782997601,25.0,1.6550167766544692,5,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC5B590> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB773F5850> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB773E7ED0> of shape (5,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB773E7BD0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB773E69D0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLF,15,200,True
+-17.618313883845403,-0.007744414185176195,55.911244351290556,20.0,0.7212096796162556,21,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC581D0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB77477350> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB77494B70> of shape (21,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB77494990> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB77494510> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLF,15,200,False
+-35.94805047778821,-0.02993425154204336,63.75011994364988,15.0,0.37728064220593743,21,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC5A150> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB7749AF50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB77519A70> of shape (21,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB775196B0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB775184B0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLE,5,50,True
+-53.12246598433591,-0.24358348584269127,86.07483950906017,20.0,0.7626731102043569,86,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC58890> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB7750FF50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB77585B90> of shape (86,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB775859B0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB77585530> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLE,5,50,False
+-17.529756281536915,0.09232705398784186,62.985147426035105,21.428571428571427,0.4971607672301141,15,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC5AED0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB774B99D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB775EEB50> of shape (15,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB775EE790> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB775ED410> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLE,5,100,True
+-68.22662277968897,-0.4661626485205533,85.40832082132385,12.0,0.5588391339882495,76,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC84290> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB7766CAD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB77663570> of shape (76,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB77663390> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB77662F10> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLE,5,100,False
+11.7114286240347,0.23870862012287541,62.985147426035105,20.0,0.603324180805309,11,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC27350> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB776930D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB7770C630> of shape (11,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB7770CA50> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB7770C030> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLE,5,150,True
+-56.14832643608181,-0.2907786306414247,83.89230213265822,15.254237288135593,0.6264164758111387,60,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC25790> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB77762AD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB7777CF30> of shape (60,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB7777CD50> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB7777C8D0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLE,5,150,False
+91.0751903026849,0.49778340841364055,64.12446846620121,16.666666666666664,1.62315010576213,7,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC27890> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB777132D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB776A9170> of shape (7,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB776A8DB0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB776A8570> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLE,5,200,True
+-10.407345386924455,0.09079464446444059,74.60198729032939,16.27906976744186,0.8134032181056958,44,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC24F50> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB7784B6D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB778619B0> of shape (44,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB778617D0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB77861350> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLE,5,200,False
+-0.6082815243455989,0.18216125072399564,62.985147426035105,25.0,0.6086197732560948,13,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC25E50> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB77899F50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB778D2DF0> of shape (13,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB778D2A30> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB778D16B0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLE,8,50,True
+-61.971169496049185,-0.3568994350837298,86.38811012169401,15.18987341772152,0.7054257813412101,80,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC24710> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB77952A50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB7794B6F0> of shape (80,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB7794B510> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB7794B090> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLE,8,50,False
+-13.136580914078106,0.11741088401831623,62.985147426035105,16.666666666666664,0.5050030529928609,13,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC25010> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB779A6150> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB779E8870> of shape (13,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB779E8C90> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB779E8210> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLE,8,100,True
+-66.78022335749222,-0.44507890827874164,84.5452494356372,15.873015873015872,0.5626395930852669,64,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC24050> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB77A2CCD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB77A5C3F0> of shape (64,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB77A5C090> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB77A5C030> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLE,8,100,False
+22.497097845307522,0.2829834743006605,64.12446846620121,33.33333333333333,0.8773547837857038,13,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC25490> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB779F6A50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB77AD5470> of shape (13,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB77AD50B0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB77AD49F0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLE,8,150,True
+-30.165897840056072,-0.050189106946316994,77.02928185421348,17.94871794871795,0.7301753962810577,40,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC25610> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB77B429D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB77B4DD70> of shape (40,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB77B4DB90> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB77B4D710> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLE,8,150,False
+83.5254700409024,0.4783037568922397,64.06641203377617,16.666666666666664,1.5246129050350457,7,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC24E90> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB77B53350> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB77BBADF0> of shape (7,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB77BBAA30> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB77BB96B0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLE,8,200,True
+11.579035354045917,0.21681353281340573,73.43664443970768,17.142857142857142,0.9145278659547403,36,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC24290> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB77C44450> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB77C3B6F0> of shape (36,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB77C3B510> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB77C3B090> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLE,8,200,False
+-7.589332723238738,0.1474557664333975,62.985147426035105,25.0,0.5333558807927716,13,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC26B10> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB77C5E8D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB77CAFA50> of shape (13,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB77CAF510> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB77CAE370> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLE,12,50,True
+-58.91726711720929,-0.31418187563516675,83.6200174271954,17.543859649122805,0.6558587299713878,58,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC24DD0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB77D29650> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB77D3C3F0> of shape (58,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB77D3C090> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB77D3C030> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLE,12,50,False
+-28.802835395635906,0.022299317227118885,64.12446846620121,18.75,0.35282028652376013,17,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BBAC710> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB77D7C050> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB77DC5530> of shape (17,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB77DC5170> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB77DC4030> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLE,12,100,True
+-61.537838352652244,-0.3621680335036718,84.40665446961543,19.148936170212767,0.5845151084388351,48,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BBAC890> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB77E2B4D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB77E35E30> of shape (48,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB77E35C50> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB77E357D0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLE,12,100,False
+45.59592498417365,0.36648158402988945,64.06641203377617,20.0,1.1765013127553292,11,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BBAFB90> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB77E75ED0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB77EAAEB0> of shape (11,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB77EAAAF0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB77EA9770> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLE,12,150,True
+-45.89040446303625,-0.1925051591630253,80.66683890916848,22.58064516129032,0.6300658248605955,32,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC5BDD0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB77F1ADD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB77F12D30> of shape (32,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB77F12B50> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB77F126D0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLE,12,150,False
+59.47957140934383,0.4105587904307412,64.71238612496497,37.5,1.3428273707822291,9,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BBAFE90> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB77FB05D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB77F9FED0> of shape (9,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB77F60630> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB77F9EA30> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLE,12,200,True
+5.435648714967174,0.18462732684962646,72.48656466670998,14.814814814814813,0.8803882828548932,28,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BBACF50> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB790220D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB79038AB0> of shape (28,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB790388D0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB79038450> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLE,12,200,False
+-32.33853690041203,-0.001610148610800328,65.56597731626007,16.666666666666664,0.380020972123277,13,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BBAC110> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB79043DD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB790BDB30> of shape (13,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB790BD770> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB790BC3F0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLE,15,50,True
+-69.76052290382032,-0.47764866719367016,84.61023623501237,16.363636363636363,0.5350752051423312,56,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BBAE150> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB790BAFD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB7912D830> of shape (56,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB7912D650> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB7912D1D0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLE,15,50,False
+-9.272295445331052,0.13845664959800388,64.08963408785624,28.57142857142857,0.5325058724174394,15,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BBAD6D0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB7911FAD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB79192BB0> of shape (15,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB791927F0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB79191470> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLE,15,100,True
+-58.34888972123664,-0.31843028819429164,85.09705061855028,20.51282051282051,0.6050307273442418,40,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BBAEA50> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB791AACD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB7920B4B0> of shape (40,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB7920B2D0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB7920AE50> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLE,15,100,False
+35.05399933780479,0.33018328067460095,63.76288891609027,21.428571428571427,1.0168043534617255,15,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BBAE390> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB79229CD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB792AC570> of shape (15,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB792ACAB0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB792AC990> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLE,15,150,True
+-38.501817450272306,-0.12053176493596529,80.38696447530782,24.242424242424242,0.6863484098168396,34,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BBAC4D0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB79319550> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB79328E70> of shape (34,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB79328C90> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB79328810> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLE,15,150,False
+76.64100610220142,0.4604293365963424,65.04482631583622,42.857142857142854,1.597247837682208,8,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BBADCD0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB79360C50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB792C12F0> of shape (8,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB792C0F30> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB792C06F0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLE,15,200,True
+-16.120813848787,0.05581990231425845,72.71837967985468,12.0,0.7565447549344976,26,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BBAE510> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB793F7A50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB7940DB30> of shape (26,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB7940D950> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB7940D4D0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLE,15,200,False
+-24.900671481485784,-0.15147587713035668,37.05743216181721,30.0,0.5774081589299892,21,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6B13C1D0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB794462D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB7948EF70> of shape (21,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB7948EBB0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB7948D9B0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLV,5,50,True
+-29.10185012035255,-0.2016187659810708,46.91773208718462,25.675675675675674,0.6924231647424801,75,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6B13F410> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB7950ADD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB79503870> of shape (75,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB79503690> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB79503210> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLV,5,50,False
+9.64893088516171,0.18177259843680374,31.02079829054521,25.0,1.1634081208320528,13,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6B13FAD0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB79554ED0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB795A49F0> of shape (13,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB795A4630> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB795A4030> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLV,5,100,True
+-50.69874325234065,-0.5100189591276933,61.644740398055056,19.35483870967742,0.3717160950066751,63,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BBAFD10> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB795E1050> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB79608570> of shape (63,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB79608210> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB79608270> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLV,5,100,False
+55.50677900680234,0.4892577651903318,28.40432671788348,25.0,0.4891494238952079,5,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6B13EB10> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB796408D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB796918F0> of shape (5,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB79691530> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB79690330> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLV,5,150,True
+-59.240536561730096,-0.6696187650985277,63.83342318113186,7.2727272727272725,0.2842982994520708,56,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6B13C890> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB796E82D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB796F2130> of shape (56,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB796F1F50> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB796F1AD0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLV,5,150,False
+79.38802180806367,0.615223476566269,28.404326717883478,50.0,2.93280479832917,3,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6B13E390> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB79713350> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB79773570> of shape (3,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB797731B0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB79771E30> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLV,5,200,True
+-52.4520025305782,-0.5346676419306099,56.967064832866996,8.88888888888889,0.3303423361912062,46,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6B13C410> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB797F7550> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB797EFE70> of shape (46,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB797EFC90> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB797EF810> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLV,5,200,False
+-7.263402474469433,0.03395795348363791,32.3252598109537,31.25,0.847743228954599,17,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6B13F7D0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB79814950> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB7983B990> of shape (17,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB7983BAB0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB7983A4F0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLV,8,50,True
+-36.10817992076917,-0.2931515205442345,53.33755784276363,21.666666666666668,0.5902456552510924,61,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6B13D850> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB798D59D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB798EC570> of shape (61,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB798EC210> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB798EC270> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLV,8,50,False
+14.212513977666022,0.21773854660035477,28.40432671788349,30.0,1.3483228311175273,11,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6B13E5D0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB79959D50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB799696B0> of shape (11,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB799692F0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB79968030> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLV,8,100,True
+-43.079602981823726,-0.38406849241084773,59.52327752622099,17.391304347826086,0.43972551416042904,47,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6B13D010> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB799D3650> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB799E5FB0> of shape (47,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB799E5DD0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB799E5950> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLV,8,100,False
+29.75991306109146,0.33028014673599054,28.40432671788348,37.5,2.1386633711926724,9,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6B13D190> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB799F5BD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB79A57030> of shape (9,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB79A56C70> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB79A558F0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLV,8,150,True
+-48.049782462209755,-0.46366314491604993,55.46036439697921,10.256410256410255,0.34461988231961055,40,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6B13E8D0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB79AC7150> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB79ABAEB0> of shape (40,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB79ABACD0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB79ABA850> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLV,8,150,False
+52.39504764036852,0.4713894479713851,28.404326717883478,50.0,3.3713112215165584,5,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6B13CDD0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB79B19950> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB79B43F90> of shape (5,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB79B6C210> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB79B6C030> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLV,8,200,True
+-59.01203048065745,-0.6561076346274908,62.90416570976274,7.6923076923076925,0.279059301612372,40,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6B13C950> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB79BC2350> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB79BE4C30> of shape (40,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB79BE4A50> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB79BE45D0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLV,8,200,False
+11.594478126923715,0.19729897656729542,34.09382954426746,33.33333333333333,1.232974462783642,10,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6B280650> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB79BEFDD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB79C15CB0> of shape (10,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB79C158F0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB79C14570> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLV,12,50,True
+-46.77442260662441,-0.4523131222852491,60.68002129418546,21.428571428571427,0.4267110488504976,57,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6B282390> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB79C63350> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB79CC99B0> of shape (57,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB79CC97D0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB79CC9350> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLV,12,50,False
+13.135122986978342,0.2093866750970385,29.69614601868593,30.0,1.325169358106766,11,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6B13DC10> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB74BC0BD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB74BD9BF0> of shape (11,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB74BD9470> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB74BDAC70> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLV,12,100,True
+-40.28561151230975,-0.3471000664103528,56.413032071394376,16.216216216216218,0.4010197361248971,38,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6B281CD0> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB74C513D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB74C0B0F0> of shape (38,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB74C0AF10> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB74C0AA90> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLV,12,100,False
+38.66350962665799,0.38851970638635985,28.404326717883478,33.33333333333333,1.9592225944533737,7,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6B13F350> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB79D467D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB79D3B9F0> of shape (7,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB79D3BB10> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB79D3A550> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLV,12,150,True
+-48.1583733290081,-0.4621485861956197,55.33293691497951,12.903225806451612,0.3147739984559922,32,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6B282510> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB79DC99D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB79DE4E70> of shape (32,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB79DE4C90> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB79DE4810> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLV,12,150,False
+53.3700829736783,0.4771348121413901,28.404326717883478,50.0,3.5089606496720305,5,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6B13FD10> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB79E05650> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB79E49110> of shape (5,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB79E48D50> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB79E48330> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLV,12,200,True
+-68.52487905215158,-0.8511599970976627,71.5136932949176,6.0606060606060606,0.18687540262594002,34,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6B280F50> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB79E9E850> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB79EAD890> of shape (34,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB79EAD6B0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB79EAD230> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLV,12,200,False
+12.99021911129338,0.20846593954682446,35.36370131930248,33.33333333333333,1.2501947863850917,10,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BDFCF50> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB79EEDD50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB79F22CD0> of shape (10,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB79F22910> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB79F21590> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLV,15,50,True
+-55.16634410792523,-0.5910267385825467,65.38767810958966,26.923076923076923,0.33175402504623663,53,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6B281B50> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB79F99B50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB79F8F5D0> of shape (53,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB79F8F3F0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB79F8EF70> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLV,15,50,False
+7.296288781130396,0.16249678088640362,29.338930280404778,30.0,1.1412633938021812,11,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC85C10> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB7B025BD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB7B038690> of shape (11,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB7B038930> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB7B038030> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLV,15,100,True
+-26.335603675347024,-0.1683546075328438,46.9955006109239,16.129032258064516,0.5467743051077403,32,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6B281250> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB7B0900D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB7B0A0390> of shape (32,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB7B0A0090> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB7B0A0210> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLV,15,100,False
+28.986488600771555,0.3244694119901899,28.40432671788348,25.0,1.3919700246302302,9,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC87890> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB7B0D22D0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB7B125410> of shape (9,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB7B125050> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB7B124870> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLV,15,150,True
+-54.68736852546071,-0.5722515121195553,59.793318438282405,11.11111111111111,0.2896996978044723,28,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC84050> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB7B185DD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB7B195D10> of shape (28,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB7B195B30> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB7B1956B0> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLV,15,150,False
+52.54760395622235,0.47215166490915805,28.404326717883478,33.33333333333333,3.101125641225161,7,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC85490> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB7B20DE50> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB7B20AD90> of shape (7,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB7B20A9D0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB7B209650> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLV,15,200,True
+-64.67699246330136,-0.7556734752505104,68.03119428504955,8.0,0.2202171455577954,26,"Portfolio(**Config({
+    ""wrapper"": ""<vectorbt.base.array_wrapper.ArrayWrapper object at 0x000001DB6BC87C50> of shape (2062,)"",
+    ""close"": ""<pandas.core.series.Series object at 0x000001DB7B21ECD0> of shape (2062,)"",
+    ""order_records"": ""<numpy.ndarray object at 0x000001DB7B27F690> of shape (26,)"",
+    ""log_records"": ""<numpy.ndarray object at 0x000001DB7B27F4B0> of shape (0,)"",
+    ""init_cash"": ""<numpy.ndarray object at 0x000001DB7B27F030> of shape (1,)"",
+    ""cash_sharing"": false,
+    ""call_seq"": null,
+    ""fillna_close"": null,
+    ""trades_type"": null
+}))",XLV,15,200,False

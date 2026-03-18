@@ -6,3 +6,4 @@ scipy
 vectorbt
 alpaca-py
 requests
+python-telegram-bot
