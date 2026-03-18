@@ -30,7 +30,7 @@ class PaperConfig:
         "XLV",
     )
     # Strategy choice (keep it simple for live paper)
-    strategy: str = "enhanced_ml"  # "ma_crossover", "rsi_mr", "xs_mom_ls", "enhanced_momentum", "enhanced_ml"
+    strategy: str = "enhanced_momentum"  # "ma_crossover", "rsi_mr", "xs_mom_ls", "enhanced_momentum" (IMPROVED adaptive EMA), "enhanced_ml"
     allow_short: bool = True
     # Parameters (set after backtesting)
     ma_fast: int = 10
@@ -88,13 +88,13 @@ def _latest_signals(close: pd.DataFrame, cfg: PaperConfig) -> pd.Series:
             w.loc[shorts] = -min(cfg.target_gross_exposure / 2.0 / len(shorts), cfg.max_position_weight)
         return w
     elif cfg.strategy == "enhanced_momentum":
-        # Use the enhanced time series momentum strategy
-        from data import estimate_daily_vol, to_daily_returns
+        # Use the IMPROVED ADAPTIVE Phase 2 EMA crossover strategy (learns from trades)
+        from improved_adaptive_strategy import improved_adaptive_signals
 
-        # Get more data for calculations
+        # Get more data for calculations (need 2+ years for adaptive EMA calculations)
         extended_close = vbt.YFData.download(
             list(cfg.tickers),
-            period="5y",  # Need more history for calculations
+            period="2y",  # Need enough history for adaptive EMA calculations
             interval="1d",
             auto_adjust=True,
             missing_index="drop",
@@ -106,34 +106,11 @@ def _latest_signals(close: pd.DataFrame, cfg: PaperConfig) -> pd.Series:
         if getattr(extended_close.index, "tz", None) is not None:
             extended_close.index = extended_close.index.tz_convert(None)
 
-        extended_rets = to_daily_returns(extended_close)
-        extended_vol = estimate_daily_vol(extended_rets, span=60)
+        # Use improved adaptive EMA strategy with better parameters and learning
+        signals_dict = improved_adaptive_signals(extended_close)
+        latest_signals = pd.Series(signals_dict, index=extended_close.columns)
 
-        assumptions = BacktestAssumptions(
-            fee_bps=1.0, slippage_bps=2.0, annual_target_vol=0.10, max_leverage=2.0
-        )
-
-        # Use 63-day lookback for more responsive signals
-        weights = strategy_time_series_momentum_trend_filter(
-            adj_close=extended_close,
-            daily_vol=extended_vol,
-            lookback_days=63,  # More responsive than 252
-            ma_days=200,
-            assumptions=assumptions,
-            market_regime_filter=True,
-            tighten_stop_loss=True,
-            sharpe_scaling=True,
-            vol_scaling=True
-        )
-
-        # Return the latest weights
-        latest_weights = weights.iloc[-1] if not weights.empty else pd.Series(0.0, index=close.columns)
-        latest_weights = latest_weights.reindex(close.columns).fillna(0.0)
-
-        # Apply position sizing constraints
-        latest_weights = _apply_position_limits(latest_weights, cfg)
-
-        return latest_weights
+        return latest_signals
     elif cfg.strategy == "enhanced_ml":
         # Use the enhanced ML strategy
         from data import estimate_daily_vol, to_daily_returns
@@ -216,10 +193,35 @@ def _apply_position_limits(weights: pd.Series, cfg: PaperConfig) -> pd.Series:
 
 
 def _get_positions_by_symbol(tc: TradingClient) -> Dict[str, float]:
+    """Get available quantity for each position (excludes shares held for orders)."""
     pos = {}
     for p in tc.get_all_positions():
         try:
-            pos[p.symbol] = float(p.qty)
+            # Use qty_available instead of qty to avoid selling shares held for orders
+            available_qty = getattr(p, 'qty_available', None)
+            if available_qty is not None:
+                pos[p.symbol] = float(available_qty)
+            else:
+                # Fallback to qty if qty_available not available
+                pos[p.symbol] = float(p.qty)
+        except Exception:
+            continue
+    return pos
+
+
+def _get_position_details(tc: TradingClient) -> Dict[str, Dict[str, float]]:
+    """Get detailed position information including total and available quantities."""
+    pos = {}
+    for p in tc.get_all_positions():
+        try:
+            available_qty = getattr(p, 'qty_available', None)
+            total_qty = float(p.qty)
+            available_qty = float(available_qty) if available_qty is not None else total_qty
+            pos[p.symbol] = {
+                'total_qty': total_qty,
+                'available_qty': available_qty,
+                'held_for_orders': total_qty - available_qty
+            }
         except Exception:
             continue
     return pos
@@ -272,8 +274,16 @@ def rebalance_once(cfg: PaperConfig) -> None:
     target_shares = target_shares.round().astype(int)
 
     current_qty = _get_positions_by_symbol(tc)
+    position_details = _get_position_details(tc)
 
     trades_executed = []
+
+    # Log position details for debugging
+    if position_details:
+        print("Current positions:")
+        for sym, details in position_details.items():
+            print(f"  {sym}: {details['available_qty']:.0f} available, {details['total_qty']:.0f} total, {details['held_for_orders']:.0f} held for orders")
+        print()
 
     # Compute deltas and place market orders (simple; no smart execution).
     for sym in target_shares.index:
@@ -283,9 +293,11 @@ def rebalance_once(cfg: PaperConfig) -> None:
         if abs(diff) < 1e-6:
             continue
 
-        # For selling, don't sell more than we have
         if diff < 0:
-            qty_to_trade = min(abs(diff), cur)  # Don't sell more than current position
+            # For selling, only sell what's available (cur already represents available quantity)
+            qty_to_trade = abs(diff)
+            # Double-check we don't exceed available quantity
+            qty_to_trade = min(qty_to_trade, cur)
         else:
             # For buying, check buying power
             trade_cost = abs(diff) * last_px.loc[sym]
@@ -298,6 +310,10 @@ def rebalance_once(cfg: PaperConfig) -> None:
             else:
                 qty_to_trade = abs(diff)
 
+        # Ensure we have positive quantity to trade
+        if qty_to_trade <= 0:
+            continue
+
         # Check minimum trade size
         trade_value = qty_to_trade * last_px.loc[sym]
         if trade_value < cfg.min_trade_size_dollars:
@@ -305,7 +321,7 @@ def rebalance_once(cfg: PaperConfig) -> None:
 
         side = OrderSide.BUY if diff > 0 else OrderSide.SELL
         try:
-            print(f"Trading {sym}: {side.value} {qty_to_trade} shares (target: {tgt}, current: {cur}, diff: {diff})")
+            print(f"Trading {sym}: {side.value} {qty_to_trade} shares (target: {tgt}, available: {cur}, diff: {diff})")
             _submit_market_order(tc, sym, qty=qty_to_trade, side=side)
             trades_executed.append((sym, side.value, qty_to_trade, last_px.loc[sym]))
             # Update buying power after successful buy
@@ -313,30 +329,38 @@ def rebalance_once(cfg: PaperConfig) -> None:
                 buying_power -= qty_to_trade * last_px.loc[sym]
         except Exception as e:
             notifier.notify_error(f"Failed to execute trade for {sym}: {e}")
+            # If trade failed due to insufficient quantity, log additional details
+            if "insufficient qty" in str(e) or "available" in str(e):
+                details = position_details.get(sym, {})
+                notifier.notify_error(f"Position details for {sym}: Available: {details.get('available_qty', 'N/A')}, Total: {details.get('total_qty', 'N/A')}, Held for orders: {details.get('held_for_orders', 'N/A')}")
 
     # If a symbol is held but not in target universe/weight, flatten it.
     for sym, cur in current_qty.items():
         if sym not in target_shares.index:
-            # Sell closes longs; buy closes shorts.
-            side = OrderSide.SELL if cur > 0 else OrderSide.BUY
-            trade_value = abs(cur) * (last_px.get(sym, 0))
-            if trade_value >= cfg.min_trade_size_dollars:
-                try:
-                    _submit_market_order(tc, sym, qty=abs(cur), side=side)
-                    trades_executed.append((sym, side.value, abs(cur), last_px.get(sym, 0)))
-                except Exception as e:
-                    notifier.notify_error(f"Failed to close position for {sym}: {e}")
-        else:
-            tgt = float(target_shares.loc[sym])
-            if tgt == 0 and cur != 0:
+            # Only close if we have available quantity
+            if cur > 0:
+                # Sell closes longs; buy closes shorts.
                 side = OrderSide.SELL if cur > 0 else OrderSide.BUY
-                trade_value = abs(cur) * last_px.loc[sym]
+                trade_value = abs(cur) * (last_px.get(sym, 0))
                 if trade_value >= cfg.min_trade_size_dollars:
                     try:
                         _submit_market_order(tc, sym, qty=abs(cur), side=side)
-                        trades_executed.append((sym, side.value, abs(cur), last_px.loc[sym]))
+                        trades_executed.append((sym, side.value, abs(cur), last_px.get(sym, 0)))
                     except Exception as e:
                         notifier.notify_error(f"Failed to close position for {sym}: {e}")
+        else:
+            tgt = float(target_shares.loc[sym])
+            if tgt == 0 and cur != 0:
+                # Only close if we have available quantity
+                if cur > 0:
+                    side = OrderSide.SELL if cur > 0 else OrderSide.BUY
+                    trade_value = abs(cur) * last_px.loc[sym]
+                    if trade_value >= cfg.min_trade_size_dollars:
+                        try:
+                            _submit_market_order(tc, sym, qty=abs(cur), side=side)
+                            trades_executed.append((sym, side.value, abs(cur), last_px.loc[sym]))
+                        except Exception as e:
+                            notifier.notify_error(f"Failed to close position for {sym}: {e}")
 
     # Send notifications
     if trades_executed:

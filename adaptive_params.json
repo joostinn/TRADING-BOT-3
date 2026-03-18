@@ -1,0 +1,14 @@
+{
+  "fast_ema": 8,
+  "slow_ema": 134,
+  "min_separation": 0.04,
+  "rsi_lower": 35,
+  "rsi_upper": 60,
+  "volatility_threshold": 1.05,
+  "position_size": 0.092236816,
+  "best_sharpe": 1.156,
+  "total_trades": 235,
+  "winning_trades": 157,
+  "total_pnl": 58597.818470818194,
+  "last_update": "2026-03-18T14:25:20.802326"
+}
